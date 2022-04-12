@@ -11,9 +11,10 @@ const color = function () {
     square.style.backgroundColor = text.value;
 };
 btn.addEventListener('click', color);
-function fun1() {
+const fun1 = function () {
     rangeSpan.textContent = range.value;
     circle.style.width = range.value + '%';
     circle.style.height = range.value + '%';
 }
 range.addEventListener('input', fun1);
+eBtn.style.display = 'none';
